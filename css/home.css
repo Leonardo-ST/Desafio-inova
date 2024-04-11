@@ -1,0 +1,41 @@
+img {
+    float: right;
+    margin: 0 10px 0 0; 
+    flex-direction: row;
+    max-width: 100%;
+    height: auto;
+    /*
+    border: 3px solid white;
+    */
+    }
+    p.no-meio {
+      text-align: center;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center; /* Alinha verticalmente */
+      
+      flex-direction: row-reverse
+    }
+    .form-login {
+      background-color: #FFFFFF; /* Cor de fundo do quadrado */
+      padding: 50px; /* Espaçamento interno do quadrado */
+      border-radius: 5px; /* Bordas arredondadas do quadrado */
+    }
+    input[type=text], input[type=password] {
+      border-radius: 10px; /* Ajuste conforme necessário */
+     font-size: 20px
+    }
+    input[type=submit] {
+      background-color: #F37A21; /* Ajuste para a cor desejada */
+      color: white; /* Cor do texto */
+      border-radius: 5px
+    }
+    input[type=submit]:active {
+      background-color: #4CAF50; /* Ajuste para a cor desejada */
+      transform: scale(0.95)
+    }
+    .homeButtons {
+      margin-right: 43px
+    }
