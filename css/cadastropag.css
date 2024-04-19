@@ -49,6 +49,5 @@ object-fit: contain;
   border-radius: 5px;
   border: 1px solid #EE5200;
   background-color: #FFFFFF;
-  background-color: #4CAF50;
   transform: scale(0.95)
 }
