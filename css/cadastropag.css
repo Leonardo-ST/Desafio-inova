@@ -1,0 +1,54 @@
+/*
+#quadrado {
+  background-color: #FFFFFF;
+  padding: 20px; 
+  border-radius: 5px;
+  margin: auto;
+  margin-top: 10px;
+  max-height: 400px;
+}
+*/
+p.nomeio {
+  text-align: center;
+}
+
+.caixinha {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse
+}
+#quadrado {
+  background-color: #FFFFFF;
+  padding: 30px; 
+  border-radius: 5px;
+  margin: auto;
+  margin-top: 10px;
+  max-height: auto; 
+  margin-bottom: 100px;
+}
+
+input[type="text"] {
+  width: auto;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+img {
+max-width: 350px;
+object-fit: contain;
+}
+
+.cadButton {
+  margin-top: 5px;
+  margin-right: 100px;
+  width: auto;
+  height: 30px;
+  color: #ee5200;
+  border-radius: 5px;
+  border: 1px solid #EE5200;
+  background-color: #FFFFFF;
+  background-color: #4CAF50;
+  transform: scale(0.95)
+}

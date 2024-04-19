@@ -1,16 +1,32 @@
 html {
-    /*
-    height: 100%;
-    background: linear-gradient(to bottom, #F37A21, #FFFFFF);
-    background-attachment: fixed;
-    */
-    background-color: #F37A21;
+  background-color: #F37820;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+@media screen and (max-width: 720px) {
+  img {
+    margin: auto;
   }
-  
-  body {
-    min-height: 100%;
-    display: grid;
-    place-items: center;
-    height: 100vh;
-    margin: 0;
-  }
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #FFFFFF;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    color: #000000;
+}
