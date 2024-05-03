@@ -10,6 +10,13 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/home.css">
+  <script>
+    function exibirSenha() {
+  var elementoSenha = document.getElementById('esqueciasenha');
+  elementoSenha.textContent = 'Email: inovama@teste.com senha é: 12345678';
+  return false;
+    }
+  </script>
 </head>
 
 <body>
@@ -25,6 +32,8 @@
       <input type="password" placeholder="12345678"id="senhaLogin" name="Sua senha:"><br>
       <input type="submit" class="homeButtons" value="Entrar">
       <input type="button" id="butaocadastro" class="homeButtons" value="Cadastro" onclick="location.href='cadastro.html';">
+      <a href="#" onclick="return exibirSenha()">Esqueci a senha</a>
+      <p id="esqueciasenha"></p>
     </form> 
     </div>
   </div>
